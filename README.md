@@ -1,18 +1,21 @@
 # AutoML App for Supervised Learning Tasks using H20, ydata-profiling and Streamlit
 
+<div align="center">
+<img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/225/744/datas/original.png" width="350">
+</div>
 
-<img src="" width="350">
+This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It has 4 main parts:
 
-This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It has 4 main parts:
+1.** Data upload:**  This is where you upload your dataset. 
+   
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Upload_data.png">
 
-1. Data upload: 
 
+2. Data Profilling: 
 <img src="" width="350">
-2. Data Profilling
+4. Model Development
 <img src="" width="350">
-3. Model Development
-<img src="" width="350">
-4. Download winning model
+5. Download winning model
 
 # 💾 Usage: To use this platform
 
@@ -22,6 +25,7 @@ Visit streamlit
 
 Launch the web app:
 
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://automlh2oplatform.streamlit.app/)
 
 
 # Reproducing this web app
