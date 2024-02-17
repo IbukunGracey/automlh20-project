@@ -5,7 +5,7 @@
 </div>
 
 
-This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It provides a seamless building of ML models with little or no coding. The platform has 4 main parts:
+This platform presents an interface that automate machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It provides a seamless building of ML models with little or no coding. The platform has 4 main parts:
 
 **Data Upload:** This is where you upload your dataset. 
    
