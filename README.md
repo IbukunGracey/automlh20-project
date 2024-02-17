@@ -4,18 +4,23 @@
 <img src="https://d112y698adiu2z.cloudfront.net/photos/production/software_photos/002/225/744/datas/original.png" width="350">
 </div>
 
-This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It has 4 main parts:
 
-1.** Data upload:**  This is where you upload your dataset. 
+This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It provides a seamless buildimng of ML models with little or no coding. The platform has 4 main parts:
+
+-Data upload: This is where you upload your dataset. 
    
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Upload_data.png">
 
+-Data Profilling: A profile report is generated, explaining the correlation among attributes, and detailed analysis of each feature.
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profiling.png">
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profile_report.png">
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Attribute%20Heatmap%20.png" width="350">
 
-2. Data Profilling: 
-<img src="" width="350">
-4. Model Development
-<img src="" width="350">
-5. Download winning model
+-Model Development : Here you specify the target variable and choose the type of supervised learning task (classification or regression). A model leaderboard is presented based on specific evaluation metrics.
+   
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Modelling.png" width="350">
+
+-Download winning model: After this you can download your winning model and make predictions.
 
 # 💾 Usage: To use this platform
 
@@ -46,7 +51,7 @@ test_env\Scripts\activate.bat
 Download requirements.txt file
 
 ```
-
+wget https://github.com/IbukunGracey/automlh20-project/blob/master/requirements.txt
 
 ```
 
@@ -56,7 +61,7 @@ pip install -r requirements.txt
 ```
 ###  Download and unzip contents from GitHub repo
 
-Download and unzip contents from the repo
+Download and unzip contents from this repo https://github.com/IbukunGracey/automlh20-project/
 
 ###  Launch the app
 
@@ -65,6 +70,5 @@ streamlit run app.py
 ```
 ### Required dependencies to be installed on your system
 
-```
 [Coding pack for java](https://code.visualstudio.com/docs/java/java-tutorial )
-```
+
