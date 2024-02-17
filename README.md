@@ -39,7 +39,7 @@ First, you will create a  environment called *test_env* using python 3.10.4
 ```
 py -3.10.4 -m venv test_env
 ```
-Secondly, we will login to the *test_env* environment on your command prompt
+Secondly, login to the *test_env* environment on your command prompt
 ```
 test_env\Scripts\activate.bat
 ```
