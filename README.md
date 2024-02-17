@@ -15,11 +15,11 @@ This platform presents an interface to automates machine learning tasks for tabu
 
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profiling.png">
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profile_report.png">
-<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Attribute%20Heatmap%20.png" width="350">
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Attribute%20Heatmap%20.png">  
 
 **Model Development:** Here you specify the target variable and choose the type of supervised learning task (classification or regression). A model leaderboard is presented based on specific evaluation metrics.
    
-<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Modelling.png" width="350">
+<img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Modelling.png">
 
 **Download winning model:** After this you can download your winning model and make predictions.
 
