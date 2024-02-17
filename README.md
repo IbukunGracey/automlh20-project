@@ -5,28 +5,25 @@
 </div>
 
 
-This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It provides a seamless buildimng of ML models with little or no coding. The platform has 4 main parts:
+This platform presents an interface to automates machine learning tasks for tabular data using [H2O AutoML](https://docs.h2o.ai/h2o/latest-stable/h2o-docs/automl.html), [ydata-profiling](https://github.com/ydataai/ydata-profiling) and [Streamlit](https://docs.streamlit.io/get-started/installation/command-line) libraries. It provides a seamless building of ML models with little or no coding. The platform has 4 main parts:
 
--Data upload: This is where you upload your dataset. 
+**Data Upload:** This is where you upload your dataset. 
    
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Upload_data.png">
 
--Data Profilling: A profile report is generated, explaining the correlation among attributes, and detailed analysis of each feature.
+**Data Profilling:** A profile report is generated, explaining the correlation among attributes, and detailed analysis of each feature.
+
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profiling.png">
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Profile_report.png">
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Attribute%20Heatmap%20.png" width="350">
 
--Model Development : Here you specify the target variable and choose the type of supervised learning task (classification or regression). A model leaderboard is presented based on specific evaluation metrics.
+**Model Development:** Here you specify the target variable and choose the type of supervised learning task (classification or regression). A model leaderboard is presented based on specific evaluation metrics.
    
 <img src="https://github.com/IbukunGracey/automlh20-project/blob/master/images/Modelling.png" width="350">
 
--Download winning model: After this you can download your winning model and make predictions.
+**Download winning model:** After this you can download your winning model and make predictions.
 
-# 💾 Usage: To use this platform
-
-Visit streamlit
-
-# Demo
+# 💾 Usage - Demo
 
 Launch the web app:
 
@@ -71,4 +68,6 @@ streamlit run app.py
 ### Required dependencies to be installed on your system
 
 [Coding pack for java](https://code.visualstudio.com/docs/java/java-tutorial )
+
+[Developed by Grace](https://github.com/IbukunGracey)
 
